@@ -128,9 +128,11 @@ aside h3{
     box-shadow: 2px 2px 8px #ccc;
 }
 
-#submission p img {
+#submission img {
     display: block;
     margin: 20px auto;
+    width: 200px;
+    height: 300px;
 }
 
 #submission ul {
