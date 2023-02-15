@@ -1,3 +1,101 @@
+@media screen and (max-width: 600px) {
+    .banner {
+        height: 10%;
+        font-size: 1em;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav .logo {
+        margin: 10px 0;
+    }
+    nav .logo img {
+        width: 50px;
+        height: 50px;
+    }
+    nav ul.menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul.menu li {
+        margin: 10px 0;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts {
+        width: 100%;
+    }
+    .categories {
+        width: 100%;
+    }
+    .quick_links {
+        width: 100%;
+    }
+    .quick_links ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .quick_links li {
+        width: 45%;
+    }
+    .map {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .banner {
+        height: 10%;
+        font-size: 1.5em;
+    }
+    nav {
+        flex-direction: row;
+        align-items: center;
+    }
+    nav .logo {
+        margin: 10px 0;
+    }
+    nav .logo img {
+        width: 50px;
+        height: 50px;
+    }
+    nav ul.menu {
+        flex-direction: row;
+        align-items: center;
+    }
+    nav ul.menu li {
+        margin: 10px 0;
+    }
+    .footer {
+        flex-direction: row;
+        align-items: center;
+    }
+    .contacts {
+        width: 25%;
+    }
+    .categories {
+        width: 25%;
+    }
+    .quick_links {
+        width: 25%;
+    }
+    .quick_links ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .quick_links li {
+        width: 45%;
+    }
+    .map {
+        width: 25%;
+    }
+}
+
 body{
     background-color: #1e1e1e;
     color: aliceblue;
@@ -57,6 +155,8 @@ nav ul.menu a:hover,
 nav ul.menu a.active {
     background-color: white;
     color: #333;
+    border-radius: 15%;
+    transition: ease-in 0.3s;
 }
 
 .main_content {
@@ -135,11 +235,17 @@ aside h3{
     height: 300px; 
 }
 
+#submission img:hover {
+    transform: scale(1.1);
+    transition: ease-in 0.3s;
+}
+
 #submission ul {
     list-style: none;
     margin: 20px 0;
     padding: 0;
     text-align: center;
+    text-decoration: none;
 }
 
 #grading table {
@@ -245,4 +351,10 @@ footer {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+.menu li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
