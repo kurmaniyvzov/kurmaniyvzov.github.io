@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
     .banner {
         height: 10%;
         font-size: 1em;
@@ -26,12 +26,15 @@
         align-items: center;
     }
     .contacts {
+        padding-left: 0%;
         width: 100%;
     }
     .categories {
+        padding-left: 0%;
         width: 100%;
     }
     .quick_links {
+        padding-left: 0%;
         width: 100%;
     }
     .quick_links ul {
@@ -41,9 +44,6 @@
     }
     .quick_links li {
         width: 45%;
-    }
-    .map {
-        width: 100%;
     }
 }
 
