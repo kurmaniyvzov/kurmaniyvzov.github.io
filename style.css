@@ -1,110 +1,3 @@
-@media screen and (max-width: 767px) {
-    .banner {
-        height: 10%;
-        font-size: 1em;
-    }
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-    nav .logo {
-        margin: 10px 0;
-    }
-    nav .logo img {
-        width: 50px;
-        height: 50px;
-    }
-    nav ul.menu {
-        flex-direction: column;
-        align-items: center;
-    }
-    nav ul.menu li {
-        margin: 10px 0;
-    }
-    footer {
-        flex-direction: column;
-        align-items: left;
-    }
-    .contacts {
-        padding-left: 0%;
-        width: 100%;
-    }
-    .categories {
-        padding-left: 0%;
-        width: 100%;
-    }
-    .categories ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding: 0%;
-    }
-    .categories li {
-        width: 100%;
-    }
-    .quick_links {
-        padding-left: 0%;
-        width: 100%;
-    }
-    .quick_links ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .quick_links li {
-        width: 45%;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px){
-    .banner {
-        height: 10%;
-        font-size: 1em;
-    }
-    nav {
-        flex-direction: column;
-        align-items: center;
-    }
-    nav .logo {
-        margin: 10px 0;
-    }
-    nav .logo img {
-        width: 50px;
-        height: 50px;
-    }
-    nav ul.menu {
-        flex-direction: column;
-        align-items: center;
-    }
-    nav ul.menu li {
-        margin: 10px 0;
-    }
-    footer {
-        flex-direction: column;
-        align-items: left;
-    }
-    .contacts {
-        padding-left: 0%;
-        width: 100%;
-    }
-    .categories {
-        padding-left: 0%;
-        width: 100%;
-    }
-    .quick_links {
-        padding-left: 0%;
-        width: 100%;
-    }
-    .quick_links ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .quick_links li {
-        width: 45%;
-    }
-}
-
 body{
     background-color: #1e1e1e;
     color: aliceblue;
@@ -366,4 +259,111 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .banner {
+        height: 10%;
+        font-size: 1em;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav .logo {
+        margin: 10px 0;
+    }
+    nav .logo img {
+        width: 50px;
+        height: 50px;
+    }
+    nav ul.menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul.menu li {
+        margin: 10px 0;
+    }
+    footer {
+        flex-direction: column;
+        align-items: left;
+    }
+    .contacts {
+        padding-left: 0%;
+        width: 100%;
+    }
+    .categories {
+        padding-left: 0%;
+        width: 100%;
+    }
+    .categories ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0%;
+    }
+    .categories li {
+        width: 100%;
+    }
+    .quick_links {
+        padding-left: 0%;
+        width: 100%;
+    }
+    .quick_links ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .quick_links li {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .banner {
+        height: 10%;
+        font-size: 1em;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav .logo {
+        margin: 10px 0;
+    }
+    nav .logo img {
+        width: 50px;
+        height: 50px;
+    }
+    nav ul.menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul.menu li {
+        margin: 10px 0;
+    }
+    footer {
+        flex-direction: column;
+        align-items: left;
+    }
+    .contacts {
+        padding-left: 0%;
+        width: 100%;
+    }
+    .categories {
+        padding-left: 0%;
+        width: 100%;
+    }
+    .quick_links {
+        padding-left: 0%;
+        width: 100%;
+    }
+    .quick_links ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .quick_links li {
+        width: 45%;
+    }
 }
