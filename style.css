@@ -33,6 +33,15 @@
         padding-left: 0%;
         width: 100%;
     }
+    .categories ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0%;
+    }
+    .categories li {
+        width: 100%;
+    }
     .quick_links {
         padding-left: 0%;
         width: 100%;
@@ -47,13 +56,13 @@
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
     .banner {
         height: 10%;
-        font-size: 1.5em;
+        font-size: 1em;
     }
     nav {
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
     }
     nav .logo {
@@ -64,24 +73,27 @@
         height: 50px;
     }
     nav ul.menu {
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
     }
     nav ul.menu li {
         margin: 10px 0;
     }
-    .footer {
-        flex-direction: row;
-        align-items: center;
+    footer {
+        flex-direction: column;
+        align-items: left;
     }
     .contacts {
-        width: 25%;
+        padding-left: 0%;
+        width: 100%;
     }
     .categories {
-        width: 25%;
+        padding-left: 0%;
+        width: 100%;
     }
     .quick_links {
-        width: 25%;
+        padding-left: 0%;
+        width: 100%;
     }
     .quick_links ul {
         display: flex;
@@ -90,9 +102,6 @@
     }
     .quick_links li {
         width: 45%;
-    }
-    .map {
-        width: 25%;
     }
 }
 
@@ -292,7 +301,7 @@ a {
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     padding: 1rem;
     background-color: #252526;
     margin-top: 50px;
@@ -327,7 +336,7 @@ footer {
 }
 
 .categories h5{
-    margin-left: 40px;
+    margin-left: 0%;
 }
 
 .categories ul {
@@ -335,7 +344,7 @@ footer {
 }
   
 .categories li {
-    margin-right: 1rem;
+    margin-left: 0%;
 }
   
 .categories a, .quick_links a {
